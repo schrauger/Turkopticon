@@ -5,8 +5,8 @@
 // @author         Created by Lilly Irani and Six Silberman, modified by Miku
 // @license        GNU GPL
 // @homepage       http://turkopticon.ucsd.edu
-// @updateURL      https://userscripts.org/scripts/source/166211.meta.js
-// @downloadURL    https://userscripts.org/scripts/source/166211.user.js
+// @updateURL      https://raw.githubusercontent.com/poolparty/Turkopticon/master/turkopticon.meta.js
+// @downloadURL    https://raw.githubusercontent.com/poolparty/Turkopticon/master/turkopticon.user.js
 // @include        https://*.mturk.com/mturk/viewhits*
 // @include        https://*.mturk.com/mturk/findhits*
 // @include        https://*.mturk.com/mturk/sorthits*

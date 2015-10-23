@@ -2,11 +2,11 @@
 // @name           turkopticon
 // @version        2014.03.07
 // @description    Review requesters on Amazon Mechanical Turk
-// @author         Created by Lilly Irani and Six Silberman, modified by Miku
+// @author         Created by Lilly Irani and Six Silberman, modified by Miku, modified by Stephen Schrauger.
 // @license        GNU GPL
-// @homepage       http://turkopticon.ucsd.edu
-// @updateURL      https://raw.githubusercontent.com/poolparty/Turkopticon/master/turkopticon.meta.js
-// @downloadURL    https://raw.githubusercontent.com/poolparty/Turkopticon/master/turkopticon.user.js
+// @homepage       https://turkopticon.ucsd.edu
+// @updateURL      https://raw.githubusercontent.com/schrauger/Turkopticon/master/turkopticon.meta.js
+// @downloadURL    https://raw.githubusercontent.com/schrauger/Turkopticon/master/turkopticon.user.js
 // @include        https://*.mturk.com/mturk/viewhits*
 // @include        https://*.mturk.com/mturk/findhits*
 // @include        https://*.mturk.com/mturk/sorthits*
@@ -21,6 +21,7 @@
 // ==/UserScript==
 
 // Recent Changes
+// 2015-10-23      Added https homepage and links
 // 2014-03-07      Added a backup server to keep Turkopticon online if the proxy server fails
 // 2014-02-28      Merged a fix from Six Silberman that handles blank values in the TO database
 // 2014-02-05      Fixed a bug that didn't display the blue box for requesters with no TO
@@ -31,9 +32,9 @@
 // 2013-05-01      Changed script processing to evaluate data after the page has loaded. Also fixed a bug where sometimes the JSON parsing failed.
 // 2013-04-30      Initial upload to userscripts
 
-var TURKOPTICON_BASE = "http://turkopticon.ucsd.edu/";
-var TURKOPTICON_PROXY = "http://turkopticon.istrack.in/";
-var API_BASE = "http://turkopticon.ucsd.edu/api/";
+var TURKOPTICON_BASE = "https://turkopticon.ucsd.edu/";
+var TURKOPTICON_PROXY = "https://turkopticon.istrack.in/";
+var API_BASE = "https://turkopticon.ucsd.edu/api/";
 var API_PROXY_BASE = "https://api.turkopticon.istrack.in/";
 var API_PROXY_BACKUP = "https://api.differenceengines.com/";
 var API_MULTI_ATTRS_URL = API_PROXY_BASE + "multi-attrs.php?ids=";

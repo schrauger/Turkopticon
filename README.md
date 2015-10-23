@@ -1,9 +1,13 @@
 Turkopticon Userscript
 ======================
-Originally created by Lilly Irani and Six Silberman. Modified by Miku.
+Originally created by Lilly Irani and Six Silberman. Modified by Miku. Modified by Stephen Schrauger
 
 Recent changes:
 ==============
+2015-10-23
+==========
+	Updated links to https
+	
 2014-03-07
 ==========
 	Added a backup server to keep Turkopticon online if the proxy server fails
